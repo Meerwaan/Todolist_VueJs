@@ -18,7 +18,7 @@ export default {
   methods: {
     removeTask: function (id) {
       this.list.splice(id, 1);
-      this.newTask = "";
+      this.nwTask = "";
     },
     doneTask: function () {
       this.item.done = true;
@@ -29,7 +29,7 @@ export default {
     list: Array,
     item: Object,
     index: Number,
-    newTask: String
+    nwTask: String
   },
 };
 </script>
